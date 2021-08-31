@@ -14,7 +14,11 @@ module.exports = {
         sans: ["roboto",
          ...defaultTheme.fontFamily.sans,
         ]
-      }
+      },
+      backgroundImage: theme => ({
+        'hero-pic': "url('../images/hero-pic.jpg')",
+        
+       }),
     },
     // fontFamily: {
     //   sans: ['Graphik', 'sans-serif'],
