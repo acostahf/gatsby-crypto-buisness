@@ -1,12 +1,12 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header>
    <nav className='bg-transparent'>
   <div class="container mx-auto px-6 py-2 flex justify-between items-center">
-    <a class="font-bold text-2xl lg:text-4xl text-black" href="#">
+    <a class="font-bold text-2xl lg:text-4xl text-black" href="...">
       {siteTitle}
     </a>
     {/* <div class="block lg:hidden">
