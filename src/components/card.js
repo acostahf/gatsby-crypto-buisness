@@ -1,5 +1,5 @@
 import React from'react'
-import PropTypes from "prop-types"
+// import PropTypes from "prop-types"
 
 export default function card (props) {
     return (
@@ -13,6 +13,6 @@ export default function card (props) {
     )
 }
 
-card.propTypes = {
-   title: PropTypes.string,
-  }
+// card.propTypes = {
+//    title: PropTypes.string,
+//   }
