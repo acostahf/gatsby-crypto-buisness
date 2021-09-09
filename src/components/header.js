@@ -5,8 +5,8 @@ import PropTypes from "prop-types"
 const Header = ({ siteTitle }) => (
   <header>
    <nav className='bg-transparent'>
-  <div class="container mx-auto px-6 py-2 flex justify-between items-center">
-    <a class="font-bold text-2xl lg:text-4xl text-black" href="...">
+  <div className="container mx-auto px-6 py-2 flex justify-between items-center">
+    <a className="font-bold text-2xl lg:text-4xl text-black" href="...">
       {siteTitle}
     </a>
     {/* <div class="block lg:hidden">

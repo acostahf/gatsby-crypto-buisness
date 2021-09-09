@@ -10,12 +10,13 @@ import HeroSection from "../components/hero-section"
 // import Card from"../components/card"
 
 var title = "This card title works!";
+var content = "content";
 
 const IndexPage = (props) => (
   <Layout className="p-0">
     <Seo title="Home" />
     <HeroSection />
-    <CardSection title={title} />
+    <CardSection title = {title} content = {content} />
   </Layout>
 )
 
