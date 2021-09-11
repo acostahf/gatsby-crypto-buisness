@@ -1,5 +1,5 @@
 import React from "react"
-
+import Slider from "./slider"
 
 function Heading () {
     return(
@@ -13,6 +13,7 @@ export default function sliderSection (props) {
     return (
         <div className="bg-gray-400">   
        <Heading />
+       <Slider />
     </div>
 )
 }
