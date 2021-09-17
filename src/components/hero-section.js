@@ -4,10 +4,11 @@ export default function heroSection({ children }) {
   return (
     <div className="max-w-full p-0 ">
       {/* heading */}
-      <div className="flex justify-center flex-col items-center h-96 w-full ">
+      <div className=" flex justify-center flex-col items-center h-96 w-600 ">
         <h1 className="text-white text-7xl">Crypto Speedstart NFT</h1>
-        <h1 className="text-blue-200">
-          A new way of minin crypto. Invest by holding.
+        <h1 className="text-blue-200 pt-10 text-2xl">
+          The Crypto Speedstars are the fastest racers on the crypto roads. Find
+          us drifting the lonely mountain of Hash mountain.
         </h1>
         <div className=" mt-10 w-full justify-center flex">
           <button className="bg-gradient-to-r from-green-400 to-blue-500 rounded text-white text-md px-2 py-1 mr-4 flex  ">
