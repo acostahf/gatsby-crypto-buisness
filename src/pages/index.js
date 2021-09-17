@@ -10,15 +10,16 @@ import HeroSection from "../components/hero-section"
 import SliderSection from "../components/slider-section"
 // import Card from"../components/card"
 
-var title = "This card title works!";
-var content = "We intergrate all your bank accounts and crypto wallets into one single wallent that auto buys out coin with onlly needing your phone number!";
+var title = "This card title works!"
+var content =
+  "We intergrate all your bank accounts and crypto wallets into one single wallent that auto buys out coin with onlly needing your phone number!"
 
-const IndexPage = (props) => (
+const IndexPage = props => (
   <Layout className="p-0">
     <Seo title="Home" />
     <HeroSection />
-    <CardSection title = {title} content = {content} />
-    <SliderSection />
+    <CardSection title={title} content={content} />
+    {/* <SliderSection /> */}
   </Layout>
 )
 
