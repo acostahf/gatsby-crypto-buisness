@@ -2,7 +2,7 @@ import React from "react"
 
 const q2 = props => {
   return (
-    <div className="bg-white w-2/3 text-white flex  backdrop-filter-blur bg-opacity-25 rounded p-10">
+    <div className="bg-white lg:w-2/3 text-white flex  backdrop-filter-blur shadow-md bg-opacity-25 rounded p-10">
       <div className="">
         <h1 className="text-3xl pb-10">Goals for Q1</h1>
         <p>

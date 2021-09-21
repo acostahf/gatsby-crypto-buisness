@@ -24,11 +24,11 @@ const Layout = ({ children }) => {
   `)
   // <div className=" w-full bg-gradient-to-r p-10 from-green-400 to-blue-500 flex flex-col justify-center items-center ">
   return (
-    <div className=" w-full bg-gradient-to-t from-yellow-400 via-red-500 to-pink-500 ">
+    <div className=" w-full  bg-gradient-to-t from-yellow-400 via-red-500 to-pink-500 ">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div>
         <main>{children}</main>
-        <footer>
+        <footer className="">
           © {new Date().getFullYear()}, Built By
           {` `}
           <a href="https://fabianacosta.netlify.app/">Fabian</a>

@@ -11,7 +11,7 @@ export default function heroSection({ children }) {
           us drifting the lonely mountain of Hash Mountain.
         </h1>
         <div className=" mt-10 w-full justify-center flex">
-          <button className="bg-gradient-to-r from-green-400 to-blue-500 rounded text-white text-md px-2 py-1 mr-4 flex  ">
+          <button className="bg-gradient-to-r from-green-400 to-blue-500 shadow-md rounded text-white text-md px-2 py-1 mr-4 flex  ">
             Lauch app{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ export default function heroSection({ children }) {
               />
             </svg>
           </button>
-          <button className=" bg-white backdrop-filter backdrop-blur-xl bg-opacity-10 rounded text-blue-300 text-md px-2 py-1 flex   ">
+          <button className=" bg-white backdrop-filter backdrop-blur-xl shadow-md bg-opacity-10 rounded text-blue-300 text-md px-2 py-1 flex   ">
             Read Docs
           </button>
         </div>
