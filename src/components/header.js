@@ -3,8 +3,8 @@ import PropTypes from "prop-types"
 // import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header className="sticky top-0">
-    <nav className="bg-white bg-opacity-25 backdrop-filter-blur ">
+  <header className="sticky top-0 z-10">
+    <nav className="bg-white bg-opacity-25 backdrop-filter backdrop-blur-sm  ">
       <div className="container mx-auto px-10 py-4 flex justify-between items-center">
         {/* <a className="font-bold text-2xl lg:text-4xl text-black" href="...">
           {siteTitle}
