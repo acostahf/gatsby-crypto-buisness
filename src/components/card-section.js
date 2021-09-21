@@ -13,9 +13,9 @@ function Heading() {
 // this function acts as a wropper around the cards in order to style the layout
 export default function cardSection(props) {
   return (
-    <div className=" w-full p-20 flex flex-col justify-center items-center space-x-20">
+    <div className=" w-full flex flex-col p-10">
       <Heading />
-      <div className=" flex flex-wrap p-10 justify-center items-center flex-auto ">
+      <div className=" grid grid-cols-1 pt-20 lg:grid-cols-3 ">
         <Card {...props} />
         <Card {...props} />
         <Card {...props} />
