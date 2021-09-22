@@ -14,6 +14,7 @@ import HeroSection from "../components/hero-section"
 import ContentSection from "../components/content-section"
 import RoadmapSection from "../components/roadmap/roadmap-section"
 import MembersSection from "../components/members"
+import FormSection from "../components/form"
 // import Card from"../components/card"
 
 var title = "This card title works!"
@@ -31,6 +32,7 @@ const IndexPage = props => (
 
     <RoadmapSection />
     <MembersSection />
+    <FormSection />
     {/* <SliderSection /> */}
   </Layout>
 )
