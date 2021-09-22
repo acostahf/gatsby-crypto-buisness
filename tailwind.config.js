@@ -9,6 +9,7 @@ module.exports = {
       blur: "blur(32px)",
     },
     height: {
+      100: "100px",
       300: "300px",
       600: "600px",
     },
