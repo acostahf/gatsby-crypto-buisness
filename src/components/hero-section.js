@@ -2,15 +2,20 @@ import React from "react"
 
 export default function heroSection({ children }) {
   return (
-    <div className="max-w-full p-0 ">
+    <div className="w-full lg:h-600 p-10 lg:p-20 m-2">
       {/* heading */}
-      <div className=" flex justify-center flex-col items-center h-600 w-600 p-20">
-        <h1 className="text-white text-7xl">Crypto Speedstars </h1>
+      <div className=" flex w-full justify-center flex-col items-center text-center lg:text-start">
+        <h1 className="text-white text-7xl">Crypto NFT </h1>
         <h1 className="text-blue-200 pt-10 text-2xl">
-          The Crypto Speedstars are the fastest racers on the crypto roads. Find
-          us drifting the lonely mountain of Hash Mountain.
+          Mollit veniam aliqua ea eiusmod ut cupidatat minim magna est labore
+          deserunt culpa. Incididunt eiusmod aute anim aliquip nisi proident
+          anim incididunt enim nulla in. Duis laborum deserunt esse duis ut
+          aliquip cillum anim reprehenderit occaecat minim. Irure nulla
+          incididunt culpa est consectetur proident officia. Officia consequat
+          aute enim consectetur dolor. Ullamco duis cupidatat qui eu esse est.
+          Adipisicing ad ex commodo deserunt.
         </h1>
-        <div className=" mt-10 w-full justify-center flex">
+        <div className=" mt-10 mb-10 w-full justify-center flex">
           <button className="bg-gradient-to-r from-green-400 to-blue-500 shadow-md rounded text-white text-md px-2 py-1 mr-4 flex  ">
             Lauch app{" "}
             <svg

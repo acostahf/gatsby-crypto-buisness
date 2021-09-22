@@ -27,6 +27,7 @@ const Form = () => {
             className="rounded w-60"
           />
         </label>
+        <button className="border-white border-2 rounded">Submit</button>
       </form>
     </div>
   )

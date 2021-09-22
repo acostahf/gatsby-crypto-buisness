@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 
 const Content = props => {
   return (
-    <div className="flex justify-center items-center flex-col p-20 text-center text-gray-3di00 font-bold text-xl h-600">
+    <div className="flex justify-center items-center flex-col p-20 text-center text-gray-3di00 font-bold text-xl lg:h-600">
       {/* <Img
         title="Header image"
         alt="Greek food laid out on table"
